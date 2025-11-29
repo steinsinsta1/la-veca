@@ -1,0 +1,724 @@
+<body class="h-full">
+  <div id="redwood-app" class="h-full"><iframe class="absolute bg-white" srcdoc="&lt;html class=&quot;h-full&quot; lang=&quot;en&quot;&gt;&lt;head&gt;
+    &lt;meta charSet=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot; /&gt;
+    &lt;link
+      rel=&quot;preconnect&quot;
+      href=&quot;https://fonts.gstatic.com&quot;
+      crossOrigin=&quot;anonymous&quot;
+    /&gt;
+    &lt;link
+      id=&quot;google-fonts-link&quot;
+      href=&quot;https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&amp;family=Lato:wght@300;400;500;600;700&amp;display=swap&quot;
+      rel=&quot;stylesheet&quot;
+    /&gt;
+    &lt;script
+      src=&quot;https://kit.fontawesome.com/8e98006f77.js&quot;
+      crossOrigin=&quot;anonymous&quot;
+    &gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;:root { --accent-color: #C6A667; --accent2-color: #FFEDCC; --accent3-color: #7A452A; --accent4-color: #506070; --primary-color: #7A0A0A; --dark-text-color: #1A1A1A; --gray-text-color: #7E7E7E; --button-padding-x: 16px; --button-padding-y: 12px; --font-family-body: 'Lato', sans-serif; --light-text-color: #FFF5E6; --dark-border-color: #403010; --light-border-color: #E6D4C3; --font-family-heading: 'Playfair Display', serif; --button-rounded-radius: 8px; --dark-background-color: #1A1A1A; --light-background-color: #D8B0B0; --medium-background-color: #B09090; --primary-button-text-color: #FFF5E6; --secondary-button-bg-color: #1A1A1A; --secondary-button-text-color: #C6A667; --primary-button-hover-bg-color: #C6A667; --primary-button-hover-text-color: #1A1A1A; --secondary-button-hover-bg-color: #393939; --secondary-button-hover-text-color: #FFF5E6; }&lt;/style&gt;
+    &lt;style&gt;
+
+.hovered-element {
+  outline: #3871E0 dashed 2px;
+}
+
+.clicked-element {
+  outline: #3871E0 solid 2px;
+}
+
+.clicked-code-section {
+  border: #3B82F6 solid 2px;
+}
+&lt;/style&gt;
+    
+    &lt;title&gt;La Vaca Negra - Steakhouse de lujo en Santiago de Surco&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Viva una experiencia de auténtico sabor latinoamericano en La Vaca Negra, el asador de primera clase en Santiago de Surco, Perú. Bistecs perfectos, ambiente cálido y un servicio excelente.&quot;/&gt;
+&lt;meta name=&quot;language&quot; content=&quot;es&quot;/&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;La Vaca Negra - Premium Steakhouse in Santiago de Surco&quot;/&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Erleben Sie authentischen lateinamerikanischen Geschmack im La Vaca Negra, dem erstklassigen Steakhouse in Santiago de Surco, Peru. Perfekte Steaks, warme Atmosphäre, und hervorragender Service.&quot;/&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;/&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;La Vaca Negra - Premium Steakhouse in Santiago de Surco&quot;/&gt;
+&lt;meta name=&quot;twitter:description&quot; content=&quot;Erleben Sie authentischen lateinamerikanischen Geschmack im La Vaca Negra, dem erstklassigen Steakhouse in Santiago de Surco, Peru. Perfekte Steaks, warme Atmosphäre, und hervorragender Service.&quot;/&gt;
+  &lt;/head&gt;&lt;body class=&quot;h-full bg-white&quot;&gt;
+    &lt;div class=&quot;frame-root&quot;&gt;
+      &lt;div class=&quot;frame-content&quot;&gt;
+        &lt;div class=&quot;[font-family:var(--font-family-body)]&quot;&gt;&lt;div&gt;&lt;header id=&quot;global-header&quot; class=&quot;code-section bg-[var(--dark-background-color)] border-b border-[var(--accent-color)]/30 sticky top-0 z-50 backdrop-blur-sm bg-opacity-95&quot;&gt;
+  &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+    &lt;div class=&quot;flex items-center justify-between&quot;&gt;
+      &lt;!-- Logo --&gt;
+      &lt;a href=&quot;/&quot; class=&quot;flex-shrink-0&quot;&gt;
+        &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/342641c2-a13d-4b67-df2b-3dc9bd2c2500/publicContain&quot; alt=&quot;La Vaca Negra Logo&quot; class=&quot;h-28 py-2&quot; data-logo=&quot;&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;logo&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;custom&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+      &lt;/a&gt;
+
+      &lt;!-- Desktop Navigation --&gt;
+      &lt;nav class=&quot;hidden lg:flex items-center space-x-8&quot;&gt;
+        &lt;a href=&quot;/menu&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base&quot;&gt;Menu&lt;/a&gt;
+        &lt;a href=&quot;/about-us&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base&quot;&gt;About Us&lt;/a&gt;
+        &lt;a href=&quot;/reviews&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base&quot;&gt;Reviews&lt;/a&gt;
+        &lt;a href=&quot;/contact&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base&quot;&gt;Contact&lt;/a&gt;
+        &lt;a href=&quot;/contact&quot; class=&quot;bg-[var(--accent-color)] text-[var(--dark-text-color)] px-6 py-3 rounded-lg font-semibold font-[var(--font-family-body)] hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105&quot;&gt;Reserva tu mesa ahora&lt;/a&gt;
+      &lt;/nav&gt;
+
+      &lt;!-- Mobile Menu Toggle --&gt;
+      &lt;button data-landingsite-mobile-menu-toggle=&quot;&quot; class=&quot;lg:hidden text-[var(--accent-color)] text-2xl p-2&quot;&gt;
+        &lt;i class=&quot;fas fa-bars&quot;&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Mobile Navigation --&gt;
+    &lt;nav data-landingsite-mobile-menu=&quot;&quot; class=&quot;hidden lg:hidden py-4 border-t border-[var(--accent-color)]/30 mt-4&quot;&gt;
+      &lt;div class=&quot;flex flex-col space-y-4&quot;&gt;
+        &lt;a href=&quot;/menu&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base py-2&quot;&gt;Menu&lt;/a&gt;
+        &lt;a href=&quot;/about-us&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base py-2&quot;&gt;About Us&lt;/a&gt;
+        &lt;a href=&quot;/reviews&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base py-2&quot;&gt;Reviews&lt;/a&gt;
+        &lt;a href=&quot;/contact&quot; class=&quot;text-[var(--light-text-color)] hover:text-[var(--accent-color)] transition-colors duration-300 font-[var(--font-family-body)] text-base py-2&quot;&gt;Contact&lt;/a&gt;
+        &lt;a href=&quot;/contact&quot; class=&quot;bg-[var(--accent-color)] text-[var(--dark-text-color)] px-6 py-3 rounded-lg font-semibold font-[var(--font-family-body)] text-center hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300&quot;&gt;Reserva tu mesa ahora&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+&lt;/div&gt;&lt;div&gt;&lt;section class=&quot;code-section relative min-h-screen flex items-center justify-center overflow-hidden&quot; id=&quot;s71zu3&quot;&gt;
+  &lt;!-- Background Image with Overlay --&gt;
+  &lt;div class=&quot;absolute inset-0 z-0&quot;&gt;
+    &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/c9bbd330-599f-4606-b383-fb6ed6952500/publicContain&quot; alt=&quot;freshly grilled beef steak and vegetables on charcoal grill&quot; class=&quot;w-full h-full object-cover&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2175326832&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+    &lt;div class=&quot;absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/95 to-[#0A0A0A]&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Hero Content --&gt;
+  &lt;div class=&quot;container mx-auto px-4 py-20 relative z-10&quot;&gt;
+    &lt;div class=&quot;max-w-4xl mx-auto text-center&quot;&gt;
+      &lt;!-- Small Gold Accent --&gt;
+      &lt;div class=&quot;inline-block mb-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-center space-x-2 text-[var(--accent-color)]&quot;&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+          &lt;i class=&quot;fas fa-fire text-2xl animate-pulse&quot;&gt;&lt;/i&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Main Headline --&gt;
+      &lt;h1 class=&quot;font-[var(--font-family-heading)] text-5xl sm:text-6xl lg:text-7xl text-[#D4C5B0] mb-6 leading-tight animate-fade-in&quot;&gt;
+        Premium Steaks.&lt;br&gt;
+        &lt;span class=&quot;text-[var(--accent-color)]&quot;&gt;Sabor auténtico.&lt;/span&gt;
+      &lt;/h1&gt;
+
+      &lt;!-- Subheadline --&gt;
+      &lt;p class=&quot;font-[var(--font-family-body)] text-lg sm:text-xl lg:text-2xl text-[#B8A890] mb-4 max-w-2xl mx-auto&quot;&gt;
+        La Vaca Negra – Surcos, un popular steakhouse con tradición.
+      &lt;/p&gt;
+
+
+
+      &lt;!-- CTAs --&gt;
+      &lt;div class=&quot;flex flex-col sm:flex-row items-center justify-center gap-4 mb-8&quot;&gt;
+        &lt;a href=&quot;/menu&quot; class=&quot;bg-[var(--accent-color)] text-[var(--dark-text-color)] px-8 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-full sm:w-auto&quot;&gt;
+          &lt;i class=&quot;fas fa-utensils mr-2&quot;&gt;&lt;/i&gt;Ver el menú
+        &lt;/a&gt;
+        &lt;a href=&quot;tel:946011385&quot; class=&quot;bg-[#0A0A0A] text-[var(--accent-color)] border-2 border-[var(--accent-color)] px-8 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--accent-color)]/10 hover:text-[var(--accent-color)] transition-all duration-300 transform hover:scale-105 w-full sm:w-auto&quot;&gt;
+          &lt;i class=&quot;fas fa-phone mr-2&quot;&gt;&lt;/i&gt;Llamar ahora
+        &lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Trust Signal --&gt;
+      &lt;p class=&quot;text-[#6B5D4F] font-[var(--font-family-body)] text-sm&quot;&gt;
+        &lt;i class=&quot;fas fa-map-marker-alt text-[var(--accent-color)] mr-2&quot;&gt;&lt;/i&gt;Ca.
+        Mercaderes 322, Santiago de Surco
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Scroll Indicator --&gt;
+  &lt;div class=&quot;absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10&quot;&gt;
+    &lt;div class=&quot;animate-bounce&quot;&gt;
+      &lt;i class=&quot;fas fa-chevron-down text-[var(--accent-color)] text-2xl&quot;&gt;&lt;/i&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;code-section bg-[#0A0A0A] py-20 relative overflow-hidden&quot; id=&quot;s8oy&quot;&gt;
+  &lt;!-- Decorative Background --&gt;
+  &lt;div class=&quot;absolute top-0 right-0 w-1/3 h-full opacity-5&quot;&gt;
+    &lt;i class=&quot;fas fa-fire text-[var(--accent-color)] text-9xl&quot;&gt;&lt;/i&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;container mx-auto px-4 relative z-10&quot;&gt;
+    &lt;div class=&quot;max-w-6xl mx-auto&quot;&gt;
+      &lt;!-- Section Header --&gt;
+      &lt;div class=&quot;text-center mb-12&quot;&gt;
+        &lt;div class=&quot;inline-block mb-4&quot;&gt;
+          &lt;div class=&quot;h-px w-20 bg-[var(--accent-color)] mx-auto&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;h2 class=&quot;font-[var(--font-family-heading)] text-4xl sm:text-5xl text-[#D4C5B0] mb-6&quot;&gt;
+          Willkommen bei
+          &lt;span class=&quot;text-[var(--accent-color)]&quot;&gt;La Vaca Negra&lt;/span&gt;
+        &lt;/h2&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Content Grid --&gt;
+      &lt;div class=&quot;grid lg:grid-cols-2 gap-12 items-center&quot;&gt;
+        &lt;!-- Left: Image --&gt;
+        &lt;div class=&quot;relative group&quot;&gt;
+          &lt;div class=&quot;absolute -inset-4 bg-gradient-to-r from-[var(--accent-color)] to-[var(--primary-color)] opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500&quot;&gt;&lt;/div&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/df8e0589-3c81-45ad-f13a-16541ca1a000/public&quot; alt=&quot;Grilled Beef Steaks on Pan&quot; class=&quot;relative rounded-lg shadow-2xl w-full transform group-hover:scale-105 transition-transform duration-500&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2241994190&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Right: Info Card --&gt;
+        &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border-2 border-[var(--accent-color)]/40 rounded-lg p-8 lg:p-10 shadow-2xl&quot;&gt;
+          &lt;!-- Rating --&gt;
+          &lt;div class=&quot;flex items-center space-x-3 mb-6&quot;&gt;
+            &lt;div class=&quot;flex text-[var(--accent-color)] text-2xl&quot;&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star-half-alt&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;text-[#D4C5B0] font-[var(--font-family-body)] text-xl font-bold&quot;&gt;
+              4,3
+            &lt;/div&gt;
+            &lt;div class=&quot;text-[#8B7D6B] font-[var(--font-family-body)]&quot;&gt;
+              (147 Bewertungen)
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Description --&gt;
+          &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-lg leading-relaxed mb-8&quot;&gt;
+            La Vaca Negra serviert hochwertige Steaks, frisch vom Grill, mit
+            authentischem lateinamerikanischem Geschmack. Perfekt gegarte Cuts,
+            warme Atmosphäre, erstklassiger Service.
+          &lt;/p&gt;
+
+          &lt;!-- Services --&gt;
+          &lt;div class=&quot;space-y-4 mb-8&quot;&gt;
+            &lt;div class=&quot;flex items-center space-x-3&quot;&gt;
+              &lt;i class=&quot;fas fa-check-circle text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+              &lt;span class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base&quot;&gt;Speisen vor Ort&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;flex items-center space-x-3&quot;&gt;
+              &lt;i class=&quot;fas fa-check-circle text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+              &lt;span class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base&quot;&gt;Zum Mitnehmen&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;flex items-center space-x-3&quot;&gt;
+              &lt;i class=&quot;fas fa-check-circle text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+              &lt;span class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base&quot;&gt;Kontaktlose Lieferung&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Opening Hours --&gt;
+          &lt;div class=&quot;flex items-center space-x-3 bg-[var(--primary-color)]/30 border border-[var(--accent-color)]/40 rounded-lg p-4&quot;&gt;
+            &lt;i class=&quot;fas fa-clock text-[var(--accent-color)] text-2xl&quot;&gt;&lt;/i&gt;
+            &lt;div&gt;
+              &lt;p class=&quot;text-[var(--accent-color)] font-[var(--font-family-body)] font-bold text-lg&quot;&gt;
+                Geöffnet
+              &lt;/p&gt;
+              &lt;p class=&quot;text-[#8B7D6B] font-[var(--font-family-body)] text-sm&quot;&gt;
+                Schließt um 22:00
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;code-section bg-gradient-to-b from-[#0A0A0A] to-[#0F0F0F] py-20&quot; id=&quot;su5j8be&quot;&gt;
+  &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+    &lt;!-- Section Header --&gt;
+    &lt;div class=&quot;text-center mb-16&quot;&gt;
+      &lt;div class=&quot;inline-block mb-4&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-center space-x-2&quot;&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+          &lt;i class=&quot;fas fa-utensils text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-[var(--font-family-heading)] text-4xl sm:text-5xl text-[#D4C5B0] mb-4&quot;&gt;
+        Unsere &lt;span class=&quot;text-[var(--accent-color)]&quot;&gt;Premium-Auswahl&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;text-[#8B7D6B] font-[var(--font-family-body)] text-lg max-w-2xl mx-auto&quot;&gt;
+        Erstklassige Cuts vom Grill, perfekt zubereitet für unvergesslichen
+        Genuss
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Menu Grid --&gt;
+    &lt;div class=&quot;max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8&quot;&gt;
+      &lt;!-- Menu Item 1 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;relative overflow-hidden h-48&quot;&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/b47a6e07-91cd-4dd2-90ef-2b8fc7900700/publicContain&quot; alt=&quot;Juicy steak medium rare beef with spices&quot; class=&quot;w-full h-full object-cover group-hover:scale-110 transition-transform duration-500&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2183622438&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+          &lt;div class=&quot;absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent opacity-70&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;p-6&quot;&gt;
+          &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+            Bife Angosto
+          &lt;/h3&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+            Zart, saftig, perfekt medium gegrillt.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Menu Item 2 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;relative overflow-hidden h-48&quot;&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/eecea287-5938-4b29-0006-ec938d2cce00/public&quot; alt=&quot;A perfectly cooked sliced striploin steak with a juicy, tender texture on a dark background. A gourmet meal for steak and wine lovers&quot; class=&quot;w-full h-full object-cover group-hover:scale-110 transition-transform duration-500&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2200850727&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+          &lt;div class=&quot;absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent opacity-70&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;p-6&quot;&gt;
+          &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+            Lomo Fino
+          &lt;/h3&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+            Edler Cut, butterweich, intensiver Geschmack.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Menu Item 3 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;relative overflow-hidden h-48&quot;&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/20f1a70d-916a-40da-029e-9af5c11a5b00/publicContain&quot; alt=&quot;Professional chef hand pouring sauce over medium-rare beef filet with mushrooms and vegetables. Fine dining culinary art presentation on ceramic plate.&quot; class=&quot;w-full h-full object-cover group-hover:scale-110 transition-transform duration-500&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2244199404&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+          &lt;div class=&quot;absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent opacity-70&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;p-6&quot;&gt;
+          &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+            Costillas BBQ
+          &lt;/h3&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+            Langsam gegart, rauchig, fall-off-the-bone.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Menu Item 4 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;relative overflow-hidden h-48&quot;&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/52a3493f-e8a8-4f1e-ea9b-92259b466e00/publicContain&quot; alt=&quot;Delicious and healthy mixed grill platter featuring juicy chicken shish, tender lamb shish, and sliced chicken doner kebab. Served on a rustic wooden board. Perfect for food blogs, menus, and promoting Mediterranean or Middle Eastern cuisine.&quot; class=&quot;w-full h-full object-cover group-hover:scale-110 transition-transform duration-500&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2231858972&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+          &lt;div class=&quot;absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent opacity-70&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;p-6&quot;&gt;
+          &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+            Parrilla Mixta
+          &lt;/h3&gt;
+          &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+            Steak, Chorizo, Chicken — das volle Grill-Erlebnis.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Menu Item 5 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;p-8 flex flex-col justify-center h-full min-h-[288px]&quot;&gt;
+          &lt;div class=&quot;text-center&quot;&gt;
+            &lt;i class=&quot;fas fa-french-fries text-[var(--accent-color)] text-5xl mb-4&quot;&gt;&lt;/i&gt;
+            &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+              Papas a la Francesa
+            &lt;/h3&gt;
+            &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3 mx-auto&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+              Knusprig goldene Pommes frites.
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Menu Item 6 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/40 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] group&quot;&gt;
+        &lt;div class=&quot;p-8 flex flex-col justify-center h-full min-h-[288px]&quot;&gt;
+          &lt;div class=&quot;text-center&quot;&gt;
+            &lt;i class=&quot;fas fa-salad text-[var(--accent-color)] text-5xl mb-4&quot;&gt;&lt;/i&gt;
+            &lt;h3 class=&quot;font-[var(--font-family-heading)] text-2xl text-[var(--accent-color)] mb-2&quot;&gt;
+              Ensalada Fresca
+            &lt;/h3&gt;
+            &lt;div class=&quot;h-px w-12 bg-[var(--accent-color)] mb-3 mx-auto&quot;&gt;&lt;/div&gt;
+            &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-sm leading-relaxed&quot;&gt;
+              Frischer gemischter Salat.
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- CTA Button --&gt;
+    &lt;div class=&quot;text-center mt-12&quot;&gt;
+      &lt;a href=&quot;/menu&quot; class=&quot;inline-block bg-[var(--accent-color)] text-[var(--dark-text-color)] px-10 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105 hover:shadow-2xl&quot;&gt;
+        &lt;i class=&quot;fas fa-book-open mr-2&quot;&gt;&lt;/i&gt;Vollständige Speisekarte
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;code-section bg-[#0A0A0A] py-20 relative overflow-hidden&quot; id=&quot;s4hcbag&quot;&gt;
+  &lt;!-- Decorative Elements --&gt;
+  &lt;div class=&quot;absolute top-1/4 left-0 w-64 h-64 bg-[var(--accent-color)] opacity-5 rounded-full blur-3xl&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;absolute bottom-1/4 right-0 w-64 h-64 bg-[var(--primary-color)] opacity-5 rounded-full blur-3xl&quot;&gt;&lt;/div&gt;
+
+  &lt;div class=&quot;container mx-auto px-4 relative z-10&quot;&gt;
+    &lt;!-- Section Header --&gt;
+    &lt;div class=&quot;text-center mb-16&quot;&gt;
+      &lt;div class=&quot;inline-block mb-4&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-center space-x-2&quot;&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+          &lt;i class=&quot;fas fa-star text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-[var(--font-family-heading)] text-4xl sm:text-5xl text-[#D4C5B0] mb-4&quot;&gt;
+        Was unsere &lt;span class=&quot;text-[var(--accent-color)]&quot;&gt;Gäste sagen&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;text-[#8B7D6B] font-[var(--font-family-body)] text-lg max-w-2xl mx-auto&quot;&gt;
+        Authentische Bewertungen von echten Gästen
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Reviews Grid --&gt;
+    &lt;div class=&quot;max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8&quot;&gt;
+      &lt;!-- Review 1 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[#0A0A0A] border-2 border-[var(--accent-color)]/50 rounded-lg p-8 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)]&quot;&gt;
+        &lt;!-- Stars --&gt;
+        &lt;div class=&quot;flex text-[var(--accent-color)] text-xl mb-4&quot;&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Quote Icon --&gt;
+        &lt;i class=&quot;fas fa-quote-left text-[var(--accent-color)] text-3xl opacity-30 mb-4&quot;&gt;&lt;/i&gt;
+
+        &lt;!-- Review Text --&gt;
+        &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base leading-relaxed mb-6 italic&quot;&gt;
+          &quot;Beste Steaks in Surco, perfekte Garstufen.&quot;
+        &lt;/p&gt;
+
+        &lt;!-- Divider --&gt;
+        &lt;div class=&quot;h-px w-full bg-[var(--accent-color)]/30 mb-4&quot;&gt;&lt;/div&gt;
+
+        &lt;!-- Rating Display --&gt;
+        &lt;div class=&quot;flex items-center justify-between&quot;&gt;
+          &lt;span class=&quot;text-[var(--accent-color)] font-[var(--font-family-heading)] text-2xl&quot;&gt;⭐⭐⭐⭐⭐&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Review 2 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[#0A0A0A] border-2 border-[var(--accent-color)]/50 rounded-lg p-8 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)]&quot;&gt;
+        &lt;!-- Stars --&gt;
+        &lt;div class=&quot;flex text-[var(--accent-color)] text-xl mb-4&quot;&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Quote Icon --&gt;
+        &lt;i class=&quot;fas fa-quote-left text-[var(--accent-color)] text-3xl opacity-30 mb-4&quot;&gt;&lt;/i&gt;
+
+        &lt;!-- Review Text --&gt;
+        &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base leading-relaxed mb-6 italic&quot;&gt;
+          &quot;Top Service, reichliche Portionen und sehr aromatisch.&quot;
+        &lt;/p&gt;
+
+        &lt;!-- Divider --&gt;
+        &lt;div class=&quot;h-px w-full bg-[var(--accent-color)]/30 mb-4&quot;&gt;&lt;/div&gt;
+
+        &lt;!-- Rating Display --&gt;
+        &lt;div class=&quot;flex items-center justify-between&quot;&gt;
+          &lt;span class=&quot;text-[var(--accent-color)] font-[var(--font-family-heading)] text-2xl&quot;&gt;⭐⭐⭐⭐⭐&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Review 3 --&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[#0A0A0A] border-2 border-[var(--accent-color)]/50 rounded-lg p-8 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:border-[var(--accent-color)] sm:col-span-2 lg:col-span-1&quot;&gt;
+        &lt;!-- Stars --&gt;
+        &lt;div class=&quot;flex text-[var(--accent-color)] text-xl mb-4&quot;&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+          &lt;i class=&quot;far fa-star&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Quote Icon --&gt;
+        &lt;i class=&quot;fas fa-quote-left text-[var(--accent-color)] text-3xl opacity-30 mb-4&quot;&gt;&lt;/i&gt;
+
+        &lt;!-- Review Text --&gt;
+        &lt;p class=&quot;text-[#B8A890] font-[var(--font-family-body)] text-base leading-relaxed mb-6 italic&quot;&gt;
+          &quot;Angenehme Atmosphäre, gutes Preis-Leistungsverhältnis.&quot;
+        &lt;/p&gt;
+
+        &lt;!-- Divider --&gt;
+        &lt;div class=&quot;h-px w-full bg-[var(--accent-color)]/30 mb-4&quot;&gt;&lt;/div&gt;
+
+        &lt;!-- Rating Display --&gt;
+        &lt;div class=&quot;flex items-center justify-between&quot;&gt;
+          &lt;span class=&quot;text-[var(--accent-color)] font-[var(--font-family-heading)] text-2xl&quot;&gt;⭐⭐⭐⭐&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Overall Rating Summary --&gt;
+    &lt;div class=&quot;max-w-2xl mx-auto mt-12 text-center&quot;&gt;
+      &lt;div class=&quot;bg-gradient-to-br from-[#0F0F0F] to-[var(--accent3-color)]/10 border border-[var(--accent-color)]/50 rounded-lg p-8 shadow-2xl&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-center space-x-4 mb-4&quot;&gt;
+          &lt;span class=&quot;font-[var(--font-family-heading)] text-6xl text-[var(--accent-color)]&quot;&gt;4,3&lt;/span&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;flex text-[var(--accent-color)] text-2xl mb-1&quot;&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star&quot;&gt;&lt;/i&gt;
+              &lt;i class=&quot;fas fa-star-half-alt&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;text-[#8B7D6B] font-[var(--font-family-body)] text-sm&quot;&gt;
+              Basierend auf 147 Bewertungen
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;/reviews&quot; class=&quot;inline-block text-[var(--accent-color)] font-[var(--font-family-body)] font-semibold hover:text-[var(--primary-button-hover-bg-color)] transition-colors duration-300&quot;&gt;
+          Alle Bewertungen ansehen &lt;i class=&quot;fas fa-arrow-right ml-2&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;code-section bg-gradient-to-b from-[var(--dark-background-color)] to-[var(--accent3-color)]/10 py-20&quot; id=&quot;s4m1m3&quot;&gt;
+  &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+    &lt;!-- Section Header --&gt;
+    &lt;div class=&quot;text-center mb-16&quot;&gt;
+      &lt;div class=&quot;inline-block mb-4&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-center space-x-2&quot;&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+          &lt;i class=&quot;fas fa-map-marker-alt text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+          &lt;div class=&quot;h-px w-16 bg-[var(--accent-color)]&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-[var(--font-family-heading)] text-4xl sm:text-5xl text-[var(--light-text-color)] mb-4&quot;&gt;
+        Besuchen Sie &lt;span class=&quot;text-[var(--accent-color)]&quot;&gt;uns&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-lg max-w-2xl mx-auto&quot;&gt;
+        Wir freuen uns auf Ihren Besuch im Herzen von Santiago de Surco
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;max-w-6xl mx-auto&quot;&gt;
+      &lt;div class=&quot;grid lg:grid-cols-2 gap-12 items-start&quot;&gt;
+        &lt;!-- Left: Contact Info --&gt;
+        &lt;div class=&quot;space-y-8&quot;&gt;
+          &lt;!-- Info Card --&gt;
+          &lt;div class=&quot;bg-gradient-to-br from-[var(--dark-background-color)] to-[var(--accent3-color)]/20 border-2 border-[var(--accent-color)]/30 rounded-lg p-8&quot;&gt;
+            &lt;!-- Address --&gt;
+            &lt;div class=&quot;mb-8&quot;&gt;
+              &lt;div class=&quot;flex items-start space-x-4 mb-4&quot;&gt;
+                &lt;div class=&quot;flex-shrink-0 w-12 h-12 bg-[var(--accent-color)]/20 rounded-full flex items-center justify-center&quot;&gt;
+                  &lt;i class=&quot;fas fa-map-marker-alt text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                  &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-2&quot;&gt;
+                    Adresse
+                  &lt;/h3&gt;
+                  &lt;p class=&quot;text-[var(--light-text-color)] font-[var(--font-family-body)] text-base&quot;&gt;
+                    Ca. Mercaderes 322&lt;br&gt;
+                    Santiago de Surco 15039&lt;br&gt;
+                    Peru
+                  &lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;h-px w-full bg-[var(--accent-color)]/30 mb-8&quot;&gt;&lt;/div&gt;
+
+            &lt;!-- Phone --&gt;
+            &lt;div class=&quot;mb-8&quot;&gt;
+              &lt;div class=&quot;flex items-start space-x-4 mb-4&quot;&gt;
+                &lt;div class=&quot;flex-shrink-0 w-12 h-12 bg-[var(--accent-color)]/20 rounded-full flex items-center justify-center&quot;&gt;
+                  &lt;i class=&quot;fas fa-phone text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                  &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-2&quot;&gt;
+                    Telefon
+                  &lt;/h3&gt;
+                  &lt;a href=&quot;tel:946011385&quot; class=&quot;text-[var(--light-text-color)] font-[var(--font-family-body)] text-lg hover:text-[var(--accent-color)] transition-colors duration-300&quot;&gt;
+                    946 011 385
+                  &lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;h-px w-full bg-[var(--accent-color)]/30 mb-8&quot;&gt;&lt;/div&gt;
+
+            &lt;!-- Opening Hours --&gt;
+            &lt;div class=&quot;mb-8&quot;&gt;
+              &lt;div class=&quot;flex items-start space-x-4&quot;&gt;
+                &lt;div class=&quot;flex-shrink-0 w-12 h-12 bg-[var(--accent-color)]/20 rounded-full flex items-center justify-center&quot;&gt;
+                  &lt;i class=&quot;fas fa-clock text-[var(--accent-color)] text-xl&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                  &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-2&quot;&gt;
+                    Öffnungszeiten
+                  &lt;/h3&gt;
+                  &lt;p class=&quot;text-[var(--light-text-color)] font-[var(--font-family-body)] text-base&quot;&gt;
+                    &lt;span class=&quot;text-[var(--accent-color)] font-bold&quot;&gt;Geöffnet&lt;/span&gt;&lt;br&gt;
+                    Schließt um 22:00
+                  &lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Action Buttons --&gt;
+          &lt;div class=&quot;space-y-4&quot;&gt;
+            &lt;a href=&quot;https://maps.google.com/?q=Ca.+Mercaderes+322,+Santiago+de+Surco+15039,+Peru&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;block bg-[var(--accent-color)] text-[var(--dark-text-color)] px-8 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105 text-center&quot;&gt;
+              &lt;i class=&quot;fas fa-route mr-2&quot;&gt;&lt;/i&gt;Route öffnen
+            &lt;/a&gt;
+            &lt;a href=&quot;tel:946011385&quot; class=&quot;block bg-[var(--secondary-button-bg-color)] text-[var(--accent-color)] border-2 border-[var(--accent-color)] px-8 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--secondary-button-hover-bg-color)] hover:text-[var(--secondary-button-hover-text-color)] transition-all duration-300 transform hover:scale-105 text-center&quot;&gt;
+              &lt;i class=&quot;fas fa-phone mr-2&quot;&gt;&lt;/i&gt;Jetzt anrufen
+            &lt;/a&gt;
+            &lt;a href=&quot;/contact&quot; class=&quot;block bg-[var(--secondary-button-bg-color)] text-[var(--accent-color)] border-2 border-[var(--accent-color)] px-8 py-4 rounded-lg font-bold font-[var(--font-family-body)] text-lg hover:bg-[var(--secondary-button-hover-bg-color)] hover:text-[var(--secondary-button-hover-text-color)] transition-all duration-300 transform hover:scale-105 text-center&quot;&gt;
+              &lt;i class=&quot;fas fa-calendar-check mr-2&quot;&gt;&lt;/i&gt;Tisch reservieren
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Right: Map --&gt;
+        &lt;div class=&quot;relative group&quot;&gt;
+          &lt;div class=&quot;absolute -inset-4 bg-gradient-to-r from-[var(--accent-color)] to-[var(--primary-color)] opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;relative bg-[var(--dark-background-color)] border-2 border-[var(--accent-color)]/30 rounded-lg overflow-hidden h-[600px]&quot;&gt;
+            &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3!2d-77.0!3d-12.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA5JzAwLjAiUyA3N8KwMDAnMDAuMCJX!5e0!3m2!1sen!2spe!4v1234567890&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot; class=&quot;grayscale hover:grayscale-0 transition-all duration-500&quot;&gt;
+            &lt;/iframe&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;&lt;div&gt;&lt;footer id=&quot;global-footer&quot; class=&quot;code-section bg-[var(--dark-background-color)] border-t-2 border-[var(--accent-color)]/30 py-12&quot;&gt;
+  &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+    &lt;div class=&quot;grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8&quot;&gt;
+      &lt;!-- Logo &amp; Description --&gt;
+      &lt;div class=&quot;sm:col-span-2 lg:col-span-1&quot;&gt;
+        &lt;a href=&quot;/&quot; class=&quot;inline-block mb-6&quot;&gt;
+          &lt;img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/342641c2-a13d-4b67-df2b-3dc9bd2c2500/publicContain&quot; alt=&quot;La Vaca Negra Logo&quot; class=&quot;h-28 py-2&quot; data-logo=&quot;&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;logo&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;custom&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;&gt;
+        &lt;/a&gt;
+        &lt;p class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm leading-relaxed mb-4&quot;&gt;
+          Premium Steakhouse in Santiago de Surco. Authentischer Geschmack,
+          erstklassiger Service.
+        &lt;/p&gt;
+        &lt;!-- Social Media --&gt;
+        &lt;div class=&quot;flex space-x-4&quot;&gt;
+          &lt;a href=&quot;https://facebook.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;w-10 h-10 bg-[var(--accent-color)]/20 rounded-full flex items-center justify-center text-[var(--accent-color)] hover:bg-[var(--accent-color)] hover:text-[var(--dark-text-color)] transition-all duration-300 transform hover:scale-110&quot;&gt;
+            &lt;i class=&quot;fab fa-facebook-f&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+          &lt;a href=&quot;https://instagram.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;w-10 h-10 bg-[var(--accent-color)]/20 rounded-full flex items-center justify-center text-[var(--accent-color)] hover:bg-[var(--accent-color)] hover:text-[var(--dark-text-color)] transition-all duration-300 transform hover:scale-110&quot;&gt;
+            &lt;i class=&quot;fab fa-instagram&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Quick Links --&gt;
+      &lt;div&gt;
+        &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-4&quot;&gt;
+          Schnelllinks
+        &lt;/h3&gt;
+        &lt;ul class=&quot;space-y-2&quot;&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;/&quot; class=&quot;text-[var(--gray-text-color)] hover:text-[var(--accent-color)] font-[var(--font-family-body)] text-sm transition-colors duration-300&quot;&gt;
+              &lt;i class=&quot;fas fa-chevron-right text-[var(--accent-color)] text-xs mr-2&quot;&gt;&lt;/i&gt;Home
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;/menu&quot; class=&quot;text-[var(--gray-text-color)] hover:text-[var(--accent-color)] font-[var(--font-family-body)] text-sm transition-colors duration-300&quot;&gt;
+              &lt;i class=&quot;fas fa-chevron-right text-[var(--accent-color)] text-xs mr-2&quot;&gt;&lt;/i&gt;Menu
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;/about-us&quot; class=&quot;text-[var(--gray-text-color)] hover:text-[var(--accent-color)] font-[var(--font-family-body)] text-sm transition-colors duration-300&quot;&gt;
+              &lt;i class=&quot;fas fa-chevron-right text-[var(--accent-color)] text-xs mr-2&quot;&gt;&lt;/i&gt;About Us
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&quot;/reviews&quot; class=&quot;text-[var(--gray-text-color)] hover:text-[var(--accent-color)] font-[var(--font-family-body)] text-sm transition-colors duration-300&quot;&gt;
+              &lt;i class=&quot;fas fa-chevron-right text-[var(--accent-color)] text-xs mr-2&quot;&gt;&lt;/i&gt;Reviews
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Contact Info --&gt;
+      &lt;div&gt;
+        &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-4&quot;&gt;
+          Kontakt
+        &lt;/h3&gt;
+        &lt;ul class=&quot;space-y-3&quot;&gt;
+          &lt;li class=&quot;flex items-start space-x-2&quot;&gt;
+            &lt;i class=&quot;fas fa-map-marker-alt text-[var(--accent-color)] text-sm mt-1&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm&quot;&gt;
+              Ca. Mercaderes 322,&lt;br&gt;Santiago de Surco 15039
+            &lt;/span&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;flex items-center space-x-2&quot;&gt;
+            &lt;i class=&quot;fas fa-phone text-[var(--accent-color)] text-sm&quot;&gt;&lt;/i&gt;
+            &lt;a href=&quot;tel:946011385&quot; class=&quot;text-[var(--gray-text-color)] hover:text-[var(--accent-color)] font-[var(--font-family-body)] text-sm transition-colors duration-300&quot;&gt;
+              946 011 385
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;flex items-center space-x-2&quot;&gt;
+            &lt;i class=&quot;fas fa-clock text-[var(--accent-color)] text-sm&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm&quot;&gt;
+              Bis 22:00 geöffnet
+            &lt;/span&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Newsletter / CTA --&gt;
+      &lt;div&gt;
+        &lt;h3 class=&quot;font-[var(--font-family-heading)] text-xl text-[var(--accent-color)] mb-4&quot;&gt;
+          Reservierung
+        &lt;/h3&gt;
+        &lt;p class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm mb-4&quot;&gt;
+          Buchen Sie jetzt Ihren Tisch für ein unvergessliches kulinarisches
+          Erlebnis.
+        &lt;/p&gt;
+        &lt;a href=&quot;/contact&quot; class=&quot;inline-block bg-[var(--accent-color)] text-[var(--dark-text-color)] px-6 py-3 rounded-lg font-semibold font-[var(--font-family-body)] text-sm hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 transform hover:scale-105&quot;&gt;
+          &lt;i class=&quot;fas fa-calendar-check mr-2&quot;&gt;&lt;/i&gt;Jetzt buchen
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Bottom Bar --&gt;
+    &lt;div class=&quot;border-t border-[var(--accent-color)]/30 pt-8 mt-8&quot;&gt;
+      &lt;div class=&quot;flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0&quot;&gt;
+        &lt;p class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm text-center sm:text-left&quot;&gt;
+          © 2025 La Vaca Negra – Santiago de Surco. Alle Rechte vorbehalten.
+        &lt;/p&gt;
+        &lt;div class=&quot;flex items-center space-x-2&quot;&gt;
+          &lt;i class=&quot;fas fa-star text-[var(--accent-color)]&quot;&gt;&lt;/i&gt;
+          &lt;span class=&quot;text-[var(--gray-text-color)] font-[var(--font-family-body)] text-sm&quot;&gt;
+            4,3 von 5 Sternen
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;script src=&quot;/embed/main.umd.js&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;&lt;/html&gt;" style="width: 100%; height: 100%; top: 0px;"></iframe><div id="redwood-announcer" role="alert" aria-live="assertive" aria-atomic="true" style="position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"></div></div>
+
+
+
+
+<script type="text/javascript" crossorigin="anonymous" src="https://us-assets.i.posthog.com/array/phc_IS9NHfACBg6Ul9wpMrfnfiBB7DvwFUYn6VPfgoiLi2c/config.js"></script><script type="text/javascript" crossorigin="anonymous" src="https://us-assets.i.posthog.com/static/recorder.js?v=1.205.0"></script></body></html>
